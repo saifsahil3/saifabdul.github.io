@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abdul Saif Babu | Sr. Automation QA & RPA Engineer</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    :root {
+      --primary: #275065;
+      --primary-light: #bed6f2;
+      --bg: #f8fafc;
+      --navbg: #0d192b;
+      --card: #fff;
+      --gray: #666;
+      --border: #e6e6e6;
+      --shadow: 0 6px 36px 0 rgba(0,0,0,0.07);
+    }
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0; background: var(--bg); color: #23272f;
+      scroll-behavior: smooth;
+    }
+    nav {
+      width: 100%;
+      background: var(--navbg);
+      color: #fff;
+      padding: 0.6rem 0;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+      position: sticky; top: 0; z-index: 20;
+      display: flex; justify-content: center;
+      gap: 2rem;
+      font-size: 1rem;
+      letter-spacing: 0.1em;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none; font-weight: 600;
+      padding: 0.5rem 1.2rem;
+      border-radius: 2rem;
+      transition: background .3s, color .2s;
+    }
+    nav a:hover {
+      background: var(--primary); color: var(--navbg);
+    }
+    .hero {
+      background: linear-gradient(120deg, var(--primary-light) 0%, var(--primary) 90%) no-repeat;
+      padding: 4rem 0 3rem 0;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 2px 36px 0 rgba(0,0,0,0.08);
+    }
+    .hero h1 { font-size: 2.8rem; margin: 0 0 .3em }
+    .hero h2 { font-weight: 400; margin: 0 0 1em; font-size: 1.4em }
+    .hero .links { margin-top: 1.2em }
+    .hero a {
+      display: inline-block;
+      margin: 0 0.4em;
+      color: #fff; background: rgba(255,255,255,0.11);
+      border-radius: 2em;
+      padding: .3em 1.1em;
+      font-size: 1.07em;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      transition: background .26s;
+    }
+    .hero a:hover { background: #fff; color:var(--primary);}
+    .main { max-width: 1100px; margin: 2.5rem auto; padding: 0 1.5em; }
+    section {
+      background: var(--card);
+      border-radius: 18px;
+      margin-bottom: 2.5rem; padding: 2.2rem 2rem;
+      box-shadow: var(--shadow);
+      animation: fadeIn 1.5s ease;
+    }
+    @keyframes fadeIn { 0%{opacity:0;transform:translateY(36px);} 100%{opacity:1;transform:none;} }
+    h2 {
+      color: var(--primary);
+      font-size: 1.3em;
+      margin-bottom: 1.0rem;
+      font-weight: 700;
+      border-left: 3px solid var(--primary);
+      padding-left: 1rem;
+      letter-spacing: .03em;
+    }
+    .about p { font-size: 1.15em; color: var(--gray);}
+    .skills-list { display: flex; flex-wrap: wrap; font-size: 1.08em; gap: 1.4rem 2.5rem; margin-top: 0.7em; }
+    .skills-list div::before { content: '★ '; color: var(--primary);}
+    .experience-entry { margin-bottom: 2.2rem;}
+    .experience-entry h3 { margin:0; color:#23272f; font-size: 1.12em }
+    .experience-entry .job-meta { color: var(--primary); font-weight: 500; font-size: 1em; margin: 0.3em 0 0.7em; }
+    .experience-entry ul { margin:0; padding-left:1.2em; color:var(--gray); }
+    .projects-list, .achievements-list { margin:0; padding-left:1.2em; color:var(--gray);}
+    .contacts { text-align:center;}
+    .contacts a { color: var(--primary); font-weight: 500; margin: 0 1em; text-decoration:none; }
+    .contacts a:hover { text-decoration: underline;}
+    .cert-list { color: var(--gray);}
+    .achievements-list li::before {content: '\\272A '; color: var(--primary);}
+    footer {
+      background: var(--navbg); color: #fff;
+      text-align: center; padding: 2.5rem 0 1.5rem;
+      font-size:1em; letter-spacing: 0.07em;
+      margin-top:3rem;
+      border-top-left-radius: 48px;
+      border-top-right-radius: 48px;
+    }
+    @media (max-width: 720px) {
+      nav { flex-direction: column; gap: 0.4rem;}
+      .main { padding: 0 .6em;}
+      section {padding: 1.3rem 0.8rem;}
+      .hero h1 { font-size: 2rem;}
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <header class="hero">
+    <h1>Abdul Saif Babu</h1>
+    <h2>Senior Automation QA &amp; RPA Engineer</h2>
+    <div class="links">
+      <a href="mailto:abdul.saifbabu@gmail.com"><span class="material-icons" style="vertical-align:middle;">email</span> Email</a>
+      <a href="tel:+19803559506"><span class="material-icons" style="vertical-align:middle;">call</span> (980) 355-9506</a>
+      <a href="https://github.com/saifsahil3" target="_blank"><span class="material-icons" style="vertical-align:middle;">code</span> GitHub</a>
+      <a href="https://medium.com/@saifsahil" target="_blank"><span class="material-icons" style="vertical-align:middle;">rss_feed</span> Medium</a>
+      <a href="https://botstore.automationanywhere.com/vendor/ssbots/" target="_blank"><span class="material-icons" style="vertical-align:middle;">extension</span> Bot Store</a>
+    </div>
+  </header>
+  <div class="main">
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        Result-oriented professional with over 10 years of automation expertise—QA engineering, RPA solutions, cloud, and hyperautomation.
+        I've built robust frameworks and streamlined processes in healthcare, insurance, government, and tech. My passion is building creative solutions and empowering organizations to reach new efficiency and quality levels.
+      </p>
+    </section>
+    <section id="skills">
+      <h2>Skills &amp; Expertise</h2>
+      <div class="skills-list">
+        <div><strong>Automation & QA:</strong> Selenium, Playwright, TestNG, BDD, API Automation, Robot Framework</div>
+        <div><strong>RPA Tools:</strong> Automation Anywhere, Appian RPA, Python frameworks</div>
+        <div><strong>Programming:</strong> Java, Python, Go, TypeScript</div>
+        <div><strong>Cloud & Infra:</strong> AWS, Kubernetes, Docker, Terraform, Jenkins</div>
+        <div><strong>DevOps:</strong> Jenkins, Git, ArgoCD, Jira</div>
+        <div><strong>Databases:</strong> MySQL, Oracle SQL, PostgreSQL</div>
+        <div><strong>Mgmt.:</strong> Agile, Scrum, Kanban, Waterfall, HP ALM</div>
+      </div>
+    </section>
+      <!-- --- EXPERIENCE SECTION: MODERN TIMELINE & SLIDER --- -->
+<!-- --- EXPERIENCE SECTION: MODERN TIMELINE & SLIDER --- -->
+<!-- --- EXPERIENCE SECTION: MODERN TIMELINE & SLIDER --- -->
+<section id="experience" style="background: (--bg); padding: 3rem 2rem; border-radius: 1rem; max-width: 1020px; margin: 3rem auto; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
+  <h2 style="color: #d9b310; font-weight: 700; margin-bottom: 1.5rem;">Professional Experience</h2>
+  <div class="timeline-container" style="position: relative; padding-top: 38px;">
+    <!-- Timeline Bar + Dots -->
+    <div class="exp-timeline" style="position: absolute; top:0; left:0; right:0; height:38px; pointer-events:none;">
+      <div class="exp-timeline-bar-bg"></div>
+      <div class="exp-timeline-bar-fill" id="timeline-fill"></div>
+      <div class="exp-timeline-years">
+        <div class="exp-timeline-dot" data-index="0" style="left: 95%"><span class="time-years">2025</span></div>
+        <div class="exp-timeline-dot" data-index="1" style="left: 80%"><span class="time-years">2023</span></div>
+        <div class="exp-timeline-dot" data-index="2" style="left: 60%"><span class="time-years">2022</span></div>
+        <div class="exp-timeline-dot" data-index="3" style="left: 42%"><span class="time-years">2020</span></div>
+        <div class="exp-timeline-dot" data-index="4" style="left: 23%"><span class="time-years">2018</span></div>
+        <div class="exp-timeline-dot" data-index="5" style="left: 4%"><span class="time-years">2015</span></div>
+      </div>
+    </div>
+    <!-- Slider of Experience Cards -->
+    <div class="experience-slider" style="display: flex; overflow-x: auto; scroll-behavior: smooth; gap: 1.3rem; padding-top:56px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+      <div class="experience-card" data-index="0"><h3>College Board</h3><div class="date">Sr QA Engineer</div><ul><li>Developed web automation with Playwright (TypeScript).</li><li>Automated AWS cost reporting (Lambda, CDK).</li><li>Integrated accessibility tools and cloud monitoring.</li></ul></div>
+      <div class="experience-card" data-index="1"><h3>USAC</h3><div class="date">Sr RPA & Automation Engineer</div><ul><li>Built Appian RPA frameworks from scratch.</li><li>Led tool evaluation & migration.</li><li>Automated SQL, document workflows.</li></ul></div>
+      <div class="experience-card" data-index="2"><h3>Rocket Software</h3><div class="date">SDET Engineer</div><ul><li>Led infra validation automation for hyperautomation platforms.</li><li>Built Python & Golang frameworks for Kubernetes/AWS.</li></ul></div>
+      <div class="experience-card" data-index="3"><h3>OpenText</h3><div class="date">Sr. Automation QA Engineer</div><ul><li>Led QA team and managed automation strategy.</li><li>Improved test coverage by 26% with new API automation.</li><li>Ensured secure cloud integrations.</li></ul></div>
+      <div class="experience-card" data-index="4"><h3>Deloitte</h3><div class="date">Automation & RPA Engineer</div><ul><li>Developed and deployed RPA bots (saved 80% manual effort).</li><li>Built in-house automation tools; led POCs.</li><li>Boosted web test coverage from 60% to 85%.</li></ul></div>
+      <div class="experience-card" data-index="5"><h3>Capgemini</h3><div class="date">Associate Consultant</div><ul><li>Expertise in ClaimCenter 8, integration and batch automation.</li><li>Created reusable scripts and handled end-to-end QA processes.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .exp-timeline { width: 100%; }
+  .exp-timeline-bar-bg {
+    position: absolute; top:24px; left:5%; right:5%; height:7px;
+    background: #afc7db;
+    border-radius: 6px;
+    z-index: 1;
+  }
+  .exp-timeline-bar-fill {
+    position: absolute; top:24px; left:5%; height:7px;
+    width: 17%; /* Initial, will update via JS */
+    background: linear-gradient(90deg, var(--primary), #72afe0 90%);
+    border-radius: 6px;
+    z-index: 2;
+    transition: width 0.42s cubic-bezier(.6,.1,.18,1);
+    pointer-events: none;
+  }
+  .exp-timeline-years {
+    position: relative; width: 100%; height: 38px; z-index:10; padding-top: 5px;
+
+
+    .time-years {
+        margin-bottom: -20px;
+    }
+  }
+  .exp-timeline-dot {
+    position: absolute; top:14px; transform:translateX(-50%);
+    width:22px; height:22px; background:#263145; border:2.5px solid #d9b310;
+    border-radius:50%; display: flex; align-items:center; justify-content:center;
+    box-shadow: 0 1.5px 6px rgba(0,0,0,0.16);
+    z-index: 15;
+    transition: border-color 0.28s;
+    cursor: pointer;
+  }
+  .exp-timeline-dot.active, .exp-timeline-dot.past {
+    background: #afc7db;
+    border-color: #33527f;
+    color: #263145 !important;
+  }
+  .exp-timeline-dot span {
+    position:absolute; display:block;
+    margin-top: 25px;
+    left:50%; transform:translateX(-50%);
+    font-size: .97em; font-weight: 600; color: #f1ead2; white-space:nowrap;
+    letter-spacing: 1.5px;
+  }
+  .exp-timeline-dot.active span, .exp-timeline-dot.past span { color: #d9b310; }
+  .experience-slider { margin-top: 0.5rem; }
+  .experience-card {
+    background: #fefcf8;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+    flex: 0 0 320px;
+    min-width: 320px;
+    padding: 1.65rem 2rem 1.3rem 2rem;
+    scroll-snap-align: start;
+    transition: transform 0.3s, box-shadow 0.3s, border 0.2s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: 0;
+    margin-bottom: 1rem;
+  }
+  .experience-card.active {
+    border: 2.5px solid --primary;
+    box-shadow: 0 12px 42px rgba(0,0,0,0.25);
+    z-index: 15;
+    top: -12px;
+    transform: scale(1.04);
+  }
+  .experience-card h3 {margin-top:0;margin-bottom:0.4rem;color: #0b1e3f;font-weight:700; font-size:1.2em;}
+  .experience-card .date {font-style: italic; color: #555; margin-bottom: 1.2rem;}
+  .experience-card ul {padding-left: 1.2rem; color: #555; font-size: 0.97rem;}
+  @media (max-width: 750px){
+    .experience-card, .experience-slider { min-width: 85vw !important; }
+    .exp-timeline-dot {width:16px;height:16px;}
+    .experience-card h3 {font-size:1.07em;}
+  }
+</style>
+<script>
+(function(){
+  // Set up variables for DOM elements.
+  const expSlider = document.querySelector('.experience-slider');
+  const cards = document.querySelectorAll('.experience-card');
+  const timelineFill = document.getElementById('timeline-fill');
+  const timelineDots = document.querySelectorAll('.exp-timeline-dot');
+  // Order: [2023,2023,2022,2020,2018,2015] (newest to oldest, left to right)
+  const fillPercents = [95, 80, 60, 42, 23, 4]; // as in their CSS left value
+  // Expose left offset % programmatically, so JS manages 'fill' width and dots
+  function setActive(idx) {
+    cards.forEach(c=>c.classList.remove('active'));
+    timelineDots.forEach(d=>{ d.classList.remove('active','past'); });
+    cards[idx].classList.add('active');
+
+    timelineFill.style.width = (fillPercents[idx] - 4) + '%';
+    // Set past/current highlights
+    timelineDots.forEach((d,i)=>{
+      if(i<idx) d.classList.add('past');
+      else if(i===idx) d.classList.add('active');
+    });
+  }
+  // On card click
+  cards.forEach((card,i)=>{
+    card.addEventListener('click',()=>{ card.scrollIntoView({behavior:'smooth',inline:'start'}); setActive(i); });
+  });
+  // On dot click
+  timelineDots.forEach((dot,i)=>{
+    dot.addEventListener('click',()=>{ 
+      cards[i].scrollIntoView({behavior:'smooth',inline:'start'}); 
+      setActive(i); 
+    });
+  });
+  // On scroll
+  expSlider.addEventListener('scroll', ()=>{
+    // Find widest card visible (> 30%).
+    let idx = 0;
+    for(let i=0; i<cards.length; ++i){
+      const card = cards[i];
+      const rect = card.getBoundingClientRect();
+      const parentRect = expSlider.getBoundingClientRect();
+      if(rect.left - parentRect.left <= parentRect.width/2) idx = i;
+    }
+    setActive(idx);
+  });
+  // Initial state
+  setActive(0);
+})();
+</script>
+
+<script>
+(function(){
+  // Set up variables for DOM elements.
+  const expSlider = document.querySelector('.experience-slider');
+  const cards = document.querySelectorAll('.experience-card');
+  const timelineFill = document.getElementById('timeline-fill');
+  const timelineDots = document.querySelectorAll('.exp-timeline-dot');
+  // Order: [2023,2023,2022,2020,2018,2015] (newest to oldest, left to right)
+  const fillPercents = [95, 80, 60, 42, 23, 4]; // as in their CSS left value
+  // Expose left offset % programmatically, so JS manages 'fill' width and dots
+  function setActive(idx) {
+    cards.forEach(c=>c.classList.remove('active'));
+    timelineDots.forEach(d=>{ d.classList.remove('active','past'); });
+    cards[idx].classList.add('active');
+
+    timelineFill.style.width = (fillPercents[idx] - 4) + '%';
+    // Set past/current highlights
+    timelineDots.forEach((d,i)=>{
+      if(i<idx) d.classList.add('past');
+      else if(i===idx) d.classList.add('active');
+    });
+  }
+  // On card click
+  cards.forEach((card,i)=>{
+    card.addEventListener('click',()=>{ card.scrollIntoView({behavior:'smooth',inline:'start'}); setActive(i); });
+  });
+  // On dot click
+  timelineDots.forEach((dot,i)=>{
+    dot.addEventListener('click',()=>{ 
+      cards[i].scrollIntoView({behavior:'smooth',inline:'start'}); 
+      setActive(i); 
+    });
+  });
+  // On scroll
+  expSlider.addEventListener('scroll', ()=>{
+    // Find widest card visible (> 30%).
+    let idx = 0;
+    for(let i=0; i<cards.length; ++i){
+      const card = cards[i];
+      const rect = card.getBoundingClientRect();
+      const parentRect = expSlider.getBoundingClientRect();
+      if(rect.left - parentRect.left <= parentRect.width/2) idx = i;
+    }
+    setActive(idx);
+  });
+  // Initial state
+  setActive(0);
+})();
+</script>
+
+
+<style>
+  .experience-card {
+    background: #fefcf8;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.16);
+    flex: 0 0 320px;
+    padding: 1.75rem 2rem;
+    scroll-snap-align: start;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    outline: none;
+  }
+  .experience-card:hover, .experience-card.active {
+    transform: translateY(-10px) scale(1.06);
+    box-shadow: 0 10px 36px rgba(0,0,0,0.36);
+  }
+  .experience-card h3 {margin-top:0;margin-bottom:0.4rem;color: #0b1e3f;font-weight:700;}
+  .experience-card .date {font-style: italic; color: #555; margin-bottom: 1.2rem;}
+  .experience-card ul {padding-left: 1.2rem; color: #555; font-size: 0.95rem;}
+  .timeline-nav button {
+    background: #123050;
+    border: none;
+    padding: 0.55rem 1.2rem;
+    border-radius: 2rem;
+    color: #fefcf8;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.35s, color 0.35s;
+    user-select: none;
+    font-size: 1rem;
+  }
+  .timeline-nav button.active {
+    background: #d9b310;
+    color: #0b1e3f;
+  }
+  .timeline-nav button:focus {
+    outline: 2px solid #d9b310;
+    outline-offset: 2px;
+  }
+</style>
+<script>
+  (() => {
+    const buttons = document.querySelectorAll('.timeline-btn');
+    const slider = document.querySelector('.experience-slider');
+    const cards = document.querySelectorAll('.experience-card');
+    if (!buttons.length || !slider || !cards.length) return;
+    function updateActive(index) {
+      buttons.forEach(btn => btn.classList.remove('active'));
+      cards.forEach(card => card.classList.remove('active'));
+      buttons[index].classList.add('active');
+      cards[index].classList.add('active');
+    }
+    buttons.forEach((btn, i) => {
+      btn.addEventListener('click', () => {
+        const card = cards[i];
+        if (!card) return;
+        card.scrollIntoView({behavior: 'smooth', inline: 'start'});
+        updateActive(i);
+      });
+    });
+    updateActive(0);
+    slider.addEventListener('scroll', () => {
+      let index = 0;
+      const scrollLeft = slider.scrollLeft;
+      cards.forEach((card, i) => {
+        if (card.offsetLeft - scrollLeft <= slider.clientWidth / 2) {
+          index = i;
+        }
+      });
+      updateActive(index);
+    });
+  })();
+</script>
+    <section id="projects">
+      <h2>Notable Projects & Contributions</h2>
+      <ul class="projects-list">
+        <li>Automated Deloitte invoice processing (80% manual effort saved).</li>
+        <li>Developed Rocket Software infra tools, shrinking QA cycle by 70%.</li>
+        <li>Published RPA bots on Automation Anywhere Bot Store (500+ downloads).</li>
+      </ul>
+    </section>
+    <section id="certifications">
+      <h2>Certifications & Education</h2>
+      <ul class="cert-list">
+        <li>Automation Anywhere Advanced, AINS, ISTQB, GitOps for Argo</li>
+        <li>B.Tech, Electronics and Communication Engineering (JNTUK, India)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Achievements & Awards</h2>
+      <ul class="achievements-list">
+        <li>Multiple delivery and innovation awards (Applause, Spot, Extra Mile)</li>
+        <li>Ideathon finalist (Virtual Assistant device)</li>
+        <li>Freeware automation tools with 500+ downloads</li>
+      </ul>
+    </section>
+    <section id="contact" class="contacts">
+      <h2>Contact Me</h2>
+      <a href="mailto:abdul.saifbabu@gmail.com">Email</a>
+      <a href="tel:+19803559506">Phone</a>
+      <a href="https://github.com/saifsahil3" target="_blank">GitHub</a>
+      <a href="https://medium.com/@saifsahil" target="_blank">Medium</a>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 Abdul Saif Babu — Modern Portfolio Design. All rights reserved.
+  </footer>
+</body>
+</html>
